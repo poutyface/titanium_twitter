@@ -1,0 +1,4 @@
+var oAuth_key = { 
+    consumer_secret: 'YOUR CONSUMER SECRET',
+    consumer_key: 'YOUR CONSUMER KEY'
+};

@@ -14,7 +14,7 @@ var textArea = Ti.UI.createTextArea(
 win.add(textArea);
 
 Ti.include('lib/oauth_adapter.js');
-Ti.include('oAuth_key.js');
+Ti.include('oauth_key.js');
 var oAuthAdapter = new OAuthAdapter(
     oAuth_key.consumer_secret,
     oAuth_key.consumer_key,
